@@ -7,9 +7,8 @@ Patches the Forge Installer to allow for installing client on CLI.
 - jar (from the JDK)
 
 ## Instructions
-1. Clone the repo
-2. Open a new terminal window in the repo folder
-3. Run `deno run --allow-read --allow-write --allow-run mod.ts --help`
+1. Open a terminal in a folder where the installer jar is present
+3. Run `deno run --allow-read --allow-write --allow-run https://raw.githubusercontent.com/PaintNinja/ForgeInstallerPatcher/main/mod.ts --help`
 
 ## Notice
 Please do not automate downloading the Forge installer - please direct your users to manually download it instead.
